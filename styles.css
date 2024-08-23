@@ -420,3 +420,16 @@ form button[type="submit"]:hover{
         margin-bottom: 10px;
     }
 }
+
+.#welcome-section {
+    background: linear-gradient(270deg, #5865f2, #23272a);
+    background-size: 400% 400%;
+
+    animation: AnimationName 30s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
